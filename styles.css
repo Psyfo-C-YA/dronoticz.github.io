@@ -145,7 +145,7 @@ svg {
 /* -------------------------------------- Landing Page ---------------------------------------- */
 #home {
   height: 100vh;
-  background-image: url('../img/hero.jpg');
+  background-image: url('/img/hero.jpg');
   background-size: cover;
   margin: 12px;
 }
