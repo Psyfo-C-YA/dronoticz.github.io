@@ -400,12 +400,8 @@ svg {
 /* Responsive article section, tablet view and landscape view on mobile */
 @media only screen and (max-width: 1080px) {
   .artcile-cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .card {
-    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
