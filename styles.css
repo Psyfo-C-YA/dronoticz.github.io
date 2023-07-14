@@ -292,6 +292,25 @@ svg {
   }
 }
 
+/* Responsive home section, tablet view and landscape view on mobile */
+@media only screen and (max-width: 1080px) {
+  .hero {
+    margin-top: 32px;
+    width: max-content;
+  }
+
+  .hero h1 {
+    font-size: var(--fs-800);
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: var(--fs-500);
+    font-weight: var(--fw-regular);
+    text-align: center;
+  }
+}
+
 /* -------------------------------------- Articles Page ---------------------------------------- */
 
 #articles {
