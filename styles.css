@@ -295,7 +295,7 @@ svg {
 /* Responsive home section, tablet view and landscape view on mobile */
 @media only screen and (max-width: 1080px) {
   .hero {
-    margin-top: 32px;
+    margin-top: 64px;
     width: max-content;
   }
 
@@ -380,6 +380,7 @@ svg {
   padding-bottom: 25px;
 }
 
+/* Responsive article section, mobile view */
 @media only screen and (max-width: 768px) {
   #articles h2 {
     font-size: var(--fs-700);
@@ -393,6 +394,18 @@ svg {
 
   .artcile-cards {
     flex-direction: column;
+  }
+}
+
+/* Responsive article section, tablet view and landscape view on mobile */
+@media only screen and (max-width: 1080px) {
+  .artcile-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 50%;
   }
 }
 
@@ -444,6 +457,7 @@ svg {
   border-bottom: 3px solid var(--clr-primary);
 }
 
+/* Responsive about us section, mobile view and tablet*/
 @media only screen and (max-width: 768px) {
   .split-screen-left > img {
     height: 100%;
@@ -522,6 +536,7 @@ form {
   border: none;
 }
 
+/* Responsive subscribe section, mobile view and tablet view */
 @media only screen and (max-width: 768px) {
   #subscribe {
     height: auto;
@@ -589,6 +604,7 @@ form {
   border: transparent;
 }
 
+/* Responsive footer section, mobile view and tablet view */
 @media only screen and (max-width: 768px) {
   .footer-content {
     flex-direction: column;
