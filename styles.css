@@ -398,12 +398,19 @@ svg {
 }
 
 /*Responsive article section, tablet view landscape view on mobile */
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 1080px) and (orientation: landscape) {
   .artcile-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* @media screen (min-width: 1080) and (orientation: landscape) {
+  .artcile-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} */
 
 /* -------------------------------------- About Page ---------------------------------------- */
 
