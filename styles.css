@@ -397,8 +397,16 @@ svg {
   }
 }
 
-/* Responsive article section, tablet view and landscape view on mobile */
+/* Responsive article section, tablet view */
 @media only screen and (max-width: 1080px) {
+  .artcile-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* landscape view on mobile */
+@media screen and (orientation: landscape) {
   .artcile-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
